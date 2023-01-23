@@ -1,0 +1,94 @@
+.wrapper{
+    max-height: 100%;
+    background: rgb(72,71,147);
+    background: linear-gradient(180deg, rgba(72,71,147,1) 0%, rgba(125,72,118,1) 35%, rgba(154,66,42,1) 100%);
+}
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    /* font-family: 'Rubik Vinyl', cursive; */
+}
+._container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.title{
+    display: block;
+    text-align: center;
+    color: rgb(255, 174, 0);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+h1 {
+
+}
+span{
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 48px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+
+}
+.text{
+    padding: 10px;
+
+}
+td, th{
+    color: white;
+}
+
+
+
+
+/* ------------------------------------------------- */
+/* -------------------POP_UP------------------------ */
+/* ------------------------------------------------- */
+.btn-close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: 2px solid orange;
+    padding: 5px;
+}
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+.header-text{
+    color: rgb(255, 174, 0);
+    background-color: rgba(63, 63, 63,.3);
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 14px;
+}
+
+.name-text{
+    background-color: rgb(0, 119, 255);
+    /* padding: 5px; */
+}
+/* -------------------------------------------------------------------- */
+.footer{
+    background-color: rgba(63, 63, 63,.3);
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 14px;
+}
+.footer-text{
+    margin: 0;
+    color: rgb(255, 174, 0);
+}
+
+
+
+
+@media (max-width=416px) {
+    .table>:not(caption)>*>* {
+        text-align: center;
+    }
+}
